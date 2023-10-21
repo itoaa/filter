@@ -1,0 +1,23 @@
+{
+    "name": "SmeFilter",
+    "version": "0.1.0",
+    "description": "A filter klas from Smedby.net",
+    "keywords": "filter, smedby.net",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/itoaa/filter"
+    },
+    "authors":
+    [
+      {
+        "name": "Ola Andersson",
+        "email": "ola@smedby.net",
+        "url": "https://dev.smedby.net"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://dev.smedby.net/software/SmeFilter/",
+    "frameworks": "*",
+    "platforms": "*"
+  }
