@@ -19,5 +19,15 @@
     "license": "MIT",
     "homepage": "https://dev.smedby.net/software/SmeFilter/",
     "frameworks": "*",
-    "platforms": "*"
+    "platforms": "*",
+    "headers": "Filter.h",
+
+    "build": {
+      "srcFilter": [
+          "+<src/*.c>",
+          "+<src/*.cpp>",
+          "+<src/*.h>"
+      ]
+  }
+
   }
