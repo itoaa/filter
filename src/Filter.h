@@ -8,7 +8,7 @@ public:
     Filter(); 
 
     void addValue(int16_t value);
-    int16_t getAverage() const;
+    int16_t getAverage();
 
 private:
     int16_t values[5]; 

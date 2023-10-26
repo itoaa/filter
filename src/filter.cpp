@@ -27,7 +27,7 @@ void Filter::addValue(int16_t value) {
     nextIndex = (nextIndex + 1) % 5;
 }
 
-int16_t Filter::getAverage() const {
+int16_t Filter::getAverage()  {
     int32_t sum = 0; // Use a 32-bit int to avoid overflow when summing
     for (int i = 0; i < 5; i++) {
         sum += values[i];
