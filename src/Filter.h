@@ -12,7 +12,7 @@ public:
 
 private:
     int16_t values[5]; 
-    uint8_t nextIndex = 0; // Changed to uint8_t
+    int     nextIndex = 0; // Changed to uint8_t
     int16_t minValue, maxValue; 
 };
 

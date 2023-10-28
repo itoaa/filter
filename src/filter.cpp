@@ -1,9 +1,5 @@
 #include "Filter.h"
 
-// Direct definition of the maximum and minimum values for int16_t
-#define INT16_MAX 32767
-#define INT16_MIN (-32768)
-
 Filter::Filter()
 : minValue(INT16_MAX), 
   maxValue(INT16_MIN) {}
