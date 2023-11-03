@@ -7,12 +7,13 @@ constexpr int16_t INT16_MIN_VAL = -32768;
 // Standardkonstruktor för Filter-klassen.
 Filter::Filter()
 : minValue(INT16_MAX_VAL), // Sätt igång med det största möjliga negativa värdet för int16_t.
-  maxValue(INT16_MIN_VAL), // Sätt igång med det största möjliga positiva värdet för int16_t.
-  nextIndex(0) {           // Initialisera nästa index för insättning till 0.
+  maxValue(INT16_MIN_VAL){ // Sätt igång med det största möjliga positiva värdet för int16_t.
+            // Initialisera nästa index för insättning till 0.
     // Initialisera värdena i 'values'-arrayen med 0.
     for (int i = 0; i < 5; i++) {
         values[i] = 0;
     }
+    nextIndex = 0;
 }
 
 // Metod för att lägga till ett nytt värde i filterlistan.
