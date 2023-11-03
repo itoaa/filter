@@ -24,9 +24,7 @@
 
     "build": {
       "srcFilter": [
-          "+<src/*.c>",
-          "+<src/*.cpp>",
-          "+<src/*.h>"
+          "-<src/src/main.cpp>"
       ]
   }
 
